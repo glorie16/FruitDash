@@ -4,8 +4,8 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance { get; private set; }
 
-    [Header("Music")]
-    [SerializeField] AudioSource musicSource;
+    // [Header("Music")]
+    // [SerializeField] AudioSource musicSource;
 
     [Header("SFX")]
     [SerializeField] AudioSource sfxSource;
@@ -42,18 +42,18 @@ public class AudioManager : MonoBehaviour
 
      public void PlayDamage() => sfxSource.PlayOneShot(playerDamageSFX);
 
-    public void SetMusicVolume(float volume) => musicSource.volume = volume;
+    // public void SetMusicVolume(float volume) => musicSource.volume = volume;
 
-    public void StopMusic()
-{
-    if (musicSource.isPlaying)
-        musicSource.Stop();
-}
+//     public void StopMusic()
+// {
+//     if (musicSource.isPlaying)
+//         musicSource.Stop();
+// }
 
-public void PlayMusic()
-{
-    if (!musicSource.isPlaying)
-        musicSource.Play();
-}
+// public void PlayMusic()
+// {
+//     if (!musicSource.isPlaying)
+//         musicSource.Play();
+// }
 
 }

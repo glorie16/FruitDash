@@ -30,7 +30,7 @@ public class GameSession : MonoBehaviour
             lastLevelIndex = scene.buildIndex;
 
             // Optionally play background music for this level
-            AudioManager.Instance?.SetMusicVolume(1f); // or play level music
+            // AudioManager.Instance?.SetMusicVolume(1f); // or play level music
         }
 
         // Stop music on GameOver
