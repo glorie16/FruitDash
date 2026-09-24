@@ -5,11 +5,7 @@ CS 4700: Game Development
 
 ## Walkthrough Video Demo:
 
-<p align="center">
-  <a href="https://youtu.be">
-    <img src="https://youtube.com" alt="Watch the project demo video" width="100%">
-  </a>
-</p>
+[https://www.youtube.com/watch?v=kz6LGdb7Qdw](https://www.youtube.com/watch?v=kz6LGdb7Qdw)
 
 ## Gameplay Screenshots
 <img width="735" height="478" alt="Screenshot 2026-09-23 at 5 08 54 PM" src="https://github.com/user-attachments/assets/fda3bc69-662f-4e4c-975e-6c998f48e19f" />
